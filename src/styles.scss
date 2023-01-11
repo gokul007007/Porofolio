@@ -1,0 +1,17 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+ 
+  background-color: #040b10;
+
+  ::-webkit-scrollbar {
+      display: none;
+  }
+
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
