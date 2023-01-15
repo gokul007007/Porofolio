@@ -1,0 +1,57 @@
+.hero {
+    background-color: #040b10;
+
+    .status-container {
+        background: rgba(255, 255, 255, 0.41);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.5px);
+        -webkit-backdrop-filter: blur(11.5px);
+
+
+        width: 250px;
+        height: 32px;
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #EBEBEC;
+        border-radius: 50px;
+
+        .status-logo {
+
+            img {
+                width: 30px;
+                height: 30px;
+                margin: auto 0px;
+            }
+        }
+
+        .status-txt { 
+
+            .txt {
+                font-size: small;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .hero-text-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-around;
+        align-items: center;
+
+        .hero-text {
+            font-size: 100px;
+            font-weight: 700;
+            color: rgb(127, 127, 127);
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+}
