@@ -1,0 +1,43 @@
+.moving-words-container {
+    position: relative;
+    animation: moving-words 10s linear infinite;
+  }
+
+  .moving-word {
+    position: absolute;
+    animation: moving-word 10s linear infinite;
+  }
+
+  @keyframes moving-words {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  
+  @keyframes moving-word {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+
+  .moving-words-container {
+    display: flex;
+  }
+  
+  .moving-word {
+    white-space: nowrap;
+  }
+
+  .moving-words-container {
+    animation-fill-mode: forwards;
+  }
+  
+  .moving-word {
+    animation-fill-mode: forwards;
+  }
