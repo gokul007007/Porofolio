@@ -23,21 +23,20 @@ const Header = () => {
     backgroundColor: '#040b10'
   })
 
-  const toggleStyle = () => {
-    if(myStyle.backgroundColor == '#040b10'){
-      setMyStyle({
-        backgroundColor: 'white'
-      })
-    }
-    else{
-      setMyStyle({
-        backgroundColor: '#040b10'
-      })
-    }
-  }
+  // const toggleStyle = () => {
+  //   if(myStyle.backgroundColor == '#040b10'){
+  //     setMyStyle({
+  //       backgroundColor: 'white'
+  //     })
+  //   }
+  //   else{
+  //     setMyStyle({
+  //       backgroundColor: '#040b10'
+  //     })
+  //   }
+  // }
 
   return (
-    <Router>
         <Navbar style={ myStyle } collapseOnSelect className='nanbar' expand="lg" bg="" variant="dark">
           <Container className='container'>
             <Navbar.Brand as={Link} to={'/home'} href="#home" className='brand'><img src={logo} alt="logo" /></Navbar.Brand>
@@ -55,22 +54,21 @@ const Header = () => {
                     </NavDropdown>
                 </Nav>
                 <Nav className='nav'>
-                  <img onClick={toggleStyle} src={ moon } alt="" />
+                  {/* <img onClick={toggleStyle} src={ moon } alt="" /> */}
                   <Nav.Link className='nav-link' href="https://github.com/gokul007007/Porofolio"><img className='git-logo' src={gitLogo} alt="" /></Nav.Link>
                 </Nav>
                 <Nav>
                     <Nav.Link as={Link} to={'/work'} href="#work">Work</Nav.Link>
-                    <Nav.Link as={Link} to={'/Skills'} eventKey={2} href="#memes">Skills</Nav.Link>
+                    <Nav.Link as={Link} to={'/skills'} eventKey={2} href="#skills">Skills</Nav.Link>
                 </Nav>
                 <Nav>
-                    <Nav.Link as={Link} to={'/contact-us'} eventKey={2} href="#contact-us">
+                    <Nav.Link as={Link} to={'/contact'} eventKey={2} href="#contact-us">
                     <Button variant="primary">Say Hello</Button>
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
-    </Router>
   )
 }
 
