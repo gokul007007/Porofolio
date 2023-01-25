@@ -1,0 +1,35 @@
+.footer {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .content {
+            display: flex; 
+            gap: 16px;
+            padding: 38px 0;
+
+            @media screen and (max-width: 426px) {
+                flex-direction: column;
+            }
+        }
+
+        .images {
+            display: flex; 
+            gap: 16px;
+            padding: 34px 0;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                cursor: pointer;
+
+                @media screen and (max-width: 426px) {
+                    width: 20px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.navbar .container {
+  padding: 8px 12px;
+  border-bottom: 2px solid;
+}
+.navbar .container .brand img {
+  width: 45px;
+  height: auto;
+}
+.navbar .container .nav .nav-link .git-logo {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=navbar.css.map */

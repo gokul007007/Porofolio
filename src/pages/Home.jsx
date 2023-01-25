@@ -3,6 +3,7 @@ import Navigator from '../components/Navigator'
 import Hero from '../components/Hero'
 import Experience from '../components/Experience'
 import Toolbox from '../components/Toolbox'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Hero />
         <Experience />
         <Toolbox />
+        <Footer />
     </div>
   )
 }
