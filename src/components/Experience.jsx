@@ -1,21 +1,21 @@
 import React from 'react'
-import '../components/experience.scss'
+import './experience.scss'
 import innova from '../images/Innova.png'
 
 const Experience = () => {
   return (
-    <div className='experience' style={{ backgroundColor: '#040b10' }}>
-        <div className='container'>
-            <h1 className='m-0'>Experience</h1>
+    <div className='experience'>
+        <div className='container heading'>
+            <h1>Experience</h1>
         </div>
-        <div className="container d-flex">
-          <div className="exp-container container">
-            <img style={{ width: '200px', height: '50px' }}  src={ innova } alt="" />
+        <div className="container d-flex content">
+          <div className="exp-container">
+            <img src={ innova } alt="" />
             <h3>Software Developer</h3>
           </div>
           <div className="exp-content container">
             <p>2021 - Present</p>
-            <div className='inline-block'>
+            <div className='inline-block description'>
               <span style={{ color: '#fff'}}>
                 Highly skilled in front-end development, I have a holistic approach to build performant and secure websites and apps that deliver great user experiences and business values,
               </span>

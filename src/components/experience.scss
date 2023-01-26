@@ -1,10 +1,37 @@
 
 .experience {
-    // background-color: #040b10;
+    background-color: #040b10;
+    padding-bottom: 150px;
 
-    h1 {
-        font-size: 55px;
-        font-weight: 700;
-        color: rgb(127, 127, 127);
+    .heading {
+
+        h1 {
+            font-size: 55px;
+            font-weight: 700;
+            color: rgb(127, 127, 127);
+        }
     }
+
+    .content {
+
+        .exp-container {
+            width: 50%;
+
+            img {
+                width: 200px;
+                height: 50px;
+            }
+        }
+
+        .exp-content {
+            width: 50%;
+
+            .description {
+
+            }
+        }
+    }
+
+
+
 }

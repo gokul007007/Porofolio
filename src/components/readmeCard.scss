@@ -1,19 +1,16 @@
-// .readmeCard {
+.readmeCard {
+    
 
-//     .container {
+    .container {
+        color: #fff;
 
-//         .readme-hero {
+        @media screen and (min-width: 769px) {
+            max-width: 75%;
+        }
 
-//             span {
+        .readme-hero {
+            padding: 40px 25px;
+        }
 
-//                 span {
-                    
-//                     .index {
-//                         margin-right: 15px;
-//                     }
-//                 }
-//             }
-//         }
-
-//     }
-// }
+    }
+}

@@ -28,7 +28,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="hero align-items-center pt-5" style={{ backgroundColor: '#040b10' }}>
+    <div className="hero align-items-center" style={{ backgroundColor: '#040b10' }}>
         <div className='status-container container'>
             <div className='status-logo'>
               <img className='' src={ image } alt="" />
