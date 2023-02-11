@@ -6,13 +6,15 @@ import Work from "./pages/Work";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useState } from "react";
 
 
 function App() {
+  const [mode, setMode] = useState(false);
   return (
     <div className="App">
       <Router>
-      <Navigator  />
+      <Navigator mode={setMode}  />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route path="/about" element={ <About /> }></Route>

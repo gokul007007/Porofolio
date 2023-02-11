@@ -5,7 +5,7 @@ import './readmeCard.scss'
 const ReadmeCard = () => {
   return (
     <div className='readmeCard m-5'>
-        <div className="container pb-4">
+        <div className="container pb-4" style={{overflowX: "auto", height: "400px"}} >
             <div className="readme-header d-flex border rounded-top align-items-center">
                 <img src={js} alt="" />
                 <h3 className=''>readme.js .</h3>

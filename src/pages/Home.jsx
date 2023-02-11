@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' style={{ backgroundColor: '#040b10' }}>
         <Hero />
         <Experience />
         <Toolbox />

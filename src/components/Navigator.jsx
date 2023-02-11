@@ -49,7 +49,10 @@ const Header = () => {
                 </NavDropdown>
             </Nav>
             <Nav className='nav'>
-              {/* <img onClick={toggleStyle} src={ moon } alt="" /> */}
+              <div class="form-check form-switch" style={{display: "flex", alignItems: "center", justifyContent: "space-between"}}>
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+              </div>
               <Nav.Link className='nav-link' href="https://github.com/gokul007007/Porofolio"><img className='git-logo' src={gitLogo} alt="" /></Nav.Link>
             </Nav>
             <Nav>

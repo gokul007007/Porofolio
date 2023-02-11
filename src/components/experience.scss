@@ -9,29 +9,44 @@
             font-size: 55px;
             font-weight: 700;
             color: rgb(127, 127, 127);
+            margin-bottom: 30px;
         }
     }
 
     .content {
 
+        display: flex;
+
+        @media screen and (max-width: 767px) {
+            display: flex;
+            flex-direction: column;
+        }
+
         .exp-container {
             width: 50%;
 
+            @media screen and (max-width: 767px) {
+                width: 100%;
+            }
+
             img {
-                width: 200px;
-                height: 50px;
+                width: 100px;
+                height: auto;
+                padding-bottom: 20px;
             }
         }
 
         .exp-content {
             width: 50%;
 
+            @media screen and (max-width: 767px) {
+                width: 100%;
+                padding-right: 0;
+            }
+
             .description {
 
             }
         }
     }
-
-
-
 }

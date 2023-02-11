@@ -1,0 +1,112 @@
+.aboutHero {
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content {
+        padding: 80px 0;
+
+        @media screen and (min-width: 768px) {
+            width: 50%;
+        }
+
+        .heading {
+            font-size: 60px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            color: #fff;
+        }
+
+        h3 {
+            color: #fff;
+            margin: 50px 0;
+            font-weight: 300;
+            font-size: 25px;
+        }
+    }
+
+    .img-card {
+        padding-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            align-items: center;
+        }
+
+        .boxcontainer {
+            --tw-bg-opacity: 10;
+            background-color: rgba(43,50,59,var(--tw-bg-opacity));
+            display: inline-block;
+            text-align: center;
+            width: 300px;
+            height: auto;
+            border-radius: 25px;
+            border-style: solid;
+            border-color: #a1a0a0;
+            border-width: 0.5px;
+
+            .myImg {
+                width: 100px;
+                height: auto;
+                border-radius: 50%;
+                margin-top: 25px;
+                margin-bottom: 15px;
+            }
+
+            .name {
+                text-align: center;
+                color: #fff;
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            .location {
+                text-align: center;
+                color: #fff;
+            }
+
+            .aboutContact {
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 15px;
+
+                .blocks {
+                    display: flex;
+                    width: 50px;
+                    height: auto;
+                    padding-left: 20px;
+                    cursor: pointer;
+
+                    .socialMedia {
+                        width: 25px;
+                        height: auto;
+                        padding: 5px;
+                        margin: 5px;
+                    }  
+
+                    p {
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0;
+                        padding-left: 10px;
+                    }
+
+                    // .arrow {
+                    //     width: 25px;
+                    //     height: 25px;
+                    //     display: flex;
+                    //     align-self: flex-end;
+                    // }
+                }
+            }
+
+        }
+    }
+}

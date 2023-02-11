@@ -8,12 +8,12 @@ const Experience = () => {
         <div className='container heading'>
             <h1>Experience</h1>
         </div>
-        <div className="container d-flex content">
+        <div className="container content">
           <div className="exp-container">
             <img src={ innova } alt="" />
-            <h3>Software Developer</h3>
+            <h4>Software Developer</h4>
           </div>
-          <div className="exp-content container">
+          <div className="exp-content">
             <p>2021 - Present</p>
             <div className='inline-block description'>
               <span style={{ color: '#fff'}}>
