@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigator from '../components/Navigator'
 import Hero from '../components/Hero'
 import Experience from '../components/Experience'
 import Toolbox from '../components/Toolbox'

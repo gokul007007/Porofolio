@@ -2,25 +2,38 @@ import React from 'react'
 import './experience.scss'
 import innova from '../images/Innova.png'
 
+
+
 const Experience = () => {
+  const style = {
+    txtColor: {
+      color: "#7f7f7f"
+    }
+  }
   return (
-    <div className='experience'>
+    <div className='experience container'>
         <div className='container heading'>
             <h1>Experience</h1>
         </div>
         <div className="container content">
           <div className="exp-container">
             <img src={ innova } alt="" />
-            <h4>Software Developer</h4>
+            <h4 style={style.txtColor}>Software Developer</h4>
           </div>
           <div className="exp-content">
-            <p>2021 - Present</p>
+            <p style={style.txtColor}>2021 - Present</p>
             <div className='inline-block description'>
               <span style={{ color: '#fff'}}>
-                Highly skilled in front-end development, I have a holistic approach to build performant and secure websites and apps that deliver great user experiences and business values,
+              Led the development of front-end features, including designing and implementing user-centered interfaces and ensuring a seamless user experience.
               </span>
               <span>
-              {" " }using TypeScript, JavaScript, TailwindCss, PostCss, JamStack including Prismic, Vercel and NextJs.  I manage projects and communicate with the  team using Slack, Notion and Linear. My second nature is uncovering and fixing bugs in the software through testing.
+              {" " }Created and implemented the UX design for the project, conducting user research and testing to improve the overall usability and user satisfaction.
+              </span>
+              <span style={{ color: '#fff'}}>
+              Managed and optimized the backend database, ensuring efficient data storage and retrieval while maintaining security and data integrity.              
+              </span>
+              <span>
+              {" " }Collaborated with cross-functional teams to deliver a fully-featured web application, utilizing my expertise in front-end development, UX design, and backend database management.
               </span>
             </div>
           </div>

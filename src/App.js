@@ -1,6 +1,6 @@
 import Navigator from "./components/Navigator";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Contact from "./pages/ContactMe";
 import Skills from "./pages/Skills";
 import Work from "./pages/Work";
 import 'bootstrap/dist/css/bootstrap.min.css';

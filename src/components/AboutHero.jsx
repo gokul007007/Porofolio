@@ -13,7 +13,7 @@ const AboutHero = () => {
     <div className="aboutHero container">
         <div className='content'>
             <h1 className='heading'>Hi it's Gokul & i'm a<br />Software Engineer</h1>
-            <h3>I have honed my skills and developed a passion for Frount-end Developement.</h3>
+            <h3>I have honed my skills and developed a passion for Front end Developement.</h3>
             <h3>I have developed a passion for creating visually appealing and user-friendly websites that provide a seamless experience for users.</h3>
             <h3>This portfolio website is a showcase of some of my best work, and I am excited to share it with you. I hope it gives you a sense of my style, approach, and the impact I can make as a front-end software developer.</h3>
         </div>

@@ -1,0 +1,34 @@
+.contactMeHero {
+
+    h1 {
+        padding-top: 80px;
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0;
+        gap: 35px;
+
+        input {
+            border: none;
+            border-bottom: 2px solid;
+            background-color: #040b10;
+            border-color: #7f7f7f;
+        }
+
+        textarea {
+            border: none;
+            border-bottom: 2px solid;
+            background-color: #040b10;
+            border-color: #7f7f7f;
+        }
+
+        .btn {
+            max-width: 140px;
+        }
+    }
+}
