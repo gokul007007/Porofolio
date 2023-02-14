@@ -1,5 +1,5 @@
 .contactMeHero {
-
+    
     h1 {
         padding-top: 80px;
         font-size: 50px;
@@ -13,18 +13,29 @@
         padding: 25px 0;
         gap: 35px;
 
-        input {
-            border: none;
-            border-bottom: 2px solid;
-            background-color: #040b10;
-            border-color: #7f7f7f;
+        @media screen and (min-width: 700px) {
+            width: 700px;
         }
 
-        textarea {
+        input, textarea {
             border: none;
             border-bottom: 2px solid;
             background-color: #040b10;
             border-color: #7f7f7f;
+            outline-color:#7f7f7f;
+            outline-style: none;
+        }
+
+        input[type="text"] {
+            color: #7f7f7f;
+        }
+
+        input[type="email"] {
+            color: #7f7f7f;
+        }
+
+        textarea[type="text"] {
+            color: #7f7f7f;
         }
 
         .btn {

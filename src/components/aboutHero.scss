@@ -89,21 +89,19 @@
                         margin: 5px;
                     }  
 
-                    p {
-                        color: #fff;
+                    .text {
                         display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        margin: 0;
-                        padding-left: 10px;
+
+                        p {
+                            color: #fff;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 0;
+                            padding-left: 10px;
+                        }
                     }
 
-                    // .arrow {
-                    //     width: 25px;
-                    //     height: 25px;
-                    //     display: flex;
-                    //     align-self: flex-end;
-                    // }
                 }
             }
 

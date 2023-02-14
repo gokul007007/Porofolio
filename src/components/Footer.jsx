@@ -16,9 +16,9 @@ const Footer = () => {
     <div className='footer'>
       <div className="container">
         <div className="content">
-          <Nav.Link style={style.txtColor} as={Link} to={'/about'} href="#work">About</Nav.Link>
-          <Nav.Link style={style.txtColor} as={Link} to={'/skills'} href="#skills">Skills</Nav.Link>
-          <Nav.Link style={style.txtColor} as={Link} to={'/contact'} href="#skills">Contact</Nav.Link>
+          <Nav.Link style={style.txtColor} as={Link} to={'/'} href="#home">Home</Nav.Link>
+          <Nav.Link style={style.txtColor} as={Link} to={'/about'} href="#about">About</Nav.Link>
+          <Nav.Link style={style.txtColor} as={Link} to={'/contact'} href="#skills">Contact-me</Nav.Link>
         </div>
         <div className="images">
           <Nav.Link href="https://www.linkedin.com/in/gokul-s-n/"><img  src={Linkedin} alt="" /></Nav.Link>
