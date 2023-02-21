@@ -21,7 +21,7 @@ const Experience = () => {
             <h4 style={style.txtColor}>Software Developer</h4>
           </div>
           <div className="exp-content">
-            <p style={style.txtColor}>2021 - Present</p>
+            <p style={style.txtColor}>2022 - Present</p>
             <div className='inline-block description'>
               <span style={{ color: '#fff'}}>
               Led the development of front-end features, including designing and implementing user-centered interfaces and ensuring a seamless user experience.
