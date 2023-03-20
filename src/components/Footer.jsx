@@ -14,7 +14,7 @@ const Footer = () => {
   }
   return (
     <div className='footer'>
-      <div className="container">
+      <div className="container">        
         <div className="content">
           <Nav.Link style={style.txtColor} as={Link} to={'/'} href="#home">Home</Nav.Link>
           <Nav.Link style={style.txtColor} as={Link} to={'/about'} href="#about">About</Nav.Link>

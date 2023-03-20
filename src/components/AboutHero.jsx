@@ -9,6 +9,23 @@ import arrow from '../images/arrow.png'
 import Nav from 'react-bootstrap/Nav';
 
 const AboutHero = () => {
+
+      // Function will execute on click of button
+      const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('Gokul_Resume@P.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Gokul_Resume@P.pdf';
+                alink.click();
+            })
+        })
+    }
+
   return (
     <div className="aboutHero container">
         <div className='content'>
@@ -22,6 +39,9 @@ const AboutHero = () => {
                 <img className='myImg' src={myImg} alt="" />
                 <div className="name">Gokul</div>
                 <div className="location">Bengaluru, India</div>
+                <hr style={{color: '#fff', margin: '25px'}} />
+                <div style={{paddingBottom: '10px'}} className="location">Have a look at my resume.</div>
+                <button onClick={onButtonClick} type="button" class="btn btn-outline-success">Download</button>
                 <hr style={{color: '#fff', margin: '25px'}} />
                 <div className="aboutContact">
                     <div className="blocks">
