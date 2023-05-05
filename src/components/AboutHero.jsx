@@ -13,14 +13,14 @@ const AboutHero = () => {
       // Function will execute on click of button
       const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('Gokul_Resume@P.pdf').then(response => {
+        fetch('ResumeGokul_resume_N.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Gokul_Resume@P.pdf';
+                alink.download = 'ResumeGokul_resume_N.pdf';
                 alink.click();
             })
         })
